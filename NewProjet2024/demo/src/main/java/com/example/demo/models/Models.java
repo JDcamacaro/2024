@@ -1,6 +1,6 @@
 package com.example.demo.models;
 
-public class Model {
+public class Models {
 
     private int ID;
     private String Nombre;
@@ -8,7 +8,7 @@ public class Model {
     private String Pais;
     private int Telefono;
 
-    public Model() {
+    public Models() {
     }
 
     public int getID() {
