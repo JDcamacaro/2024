@@ -5,11 +5,20 @@ import com.example.demo.models.Models;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.List;
 @Service
 
 public class GuiaServices{
 
     private ArrayList<Models> lista = new ArrayList<>();
+
+
+    // En el servicio GuiaServices
+    public List<Models> getAllModels() {
+            // Implementación para obtener todos los modelos
+            return  getAllModels();
+}
+
 
     public ArrayList<Models> crearInfo(Models intModelo){
         lista.add(intModelo);

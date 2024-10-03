@@ -11,6 +11,16 @@ public class Models {
     public Models() {
     }
 
+
+    public Models(int ID, String Nombre, String Apellido, String Pais, int Telefono) {
+        this.ID = ID;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Pais = Pais;
+        this.Telefono = Telefono;
+    }
+    
+
     public int getID() {
         return this.ID;
     }
